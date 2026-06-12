@@ -1,0 +1,35 @@
+{
+  "name": "ts-folder-check",
+  "version": "1.0.0",
+  "description": "Scoped TypeScript error checker — type-checks only the given folder(s) instead of the whole project",
+  "type": "module",
+  "bin": {
+    "ts-folder-check": "./index.mjs"
+  },
+  "files": [
+    "index.mjs"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakir-mhv/ts-folder-check.git"
+  },
+  "keywords": [
+    "typescript",
+    "type-check",
+    "tsc",
+    "noEmit",
+    "monorepo",
+    "incremental",
+    "scoped"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "typescript": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
