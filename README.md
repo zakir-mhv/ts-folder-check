@@ -12,7 +12,7 @@ bun add -d ts-folder-check
 npm install -D ts-folder-check
 ```
 
-`typescript` (>= 5.0) is a peer dependency — the checker uses the TypeScript version already installed in your project.
+`typescript` (6.0.3) is a dependency.
 
 ## Usage
 
