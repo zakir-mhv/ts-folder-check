@@ -5,9 +5,10 @@
       "name": "ts-folder-check",
       "devDependencies": {
         "@types/bun": "latest",
+        "typescript": "6.0.3",
       },
       "peerDependencies": {
-        "typescript": ">=5.0.0",
+        "typescript": "6.0.3",
       },
     },
   },
