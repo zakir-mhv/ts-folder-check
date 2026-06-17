@@ -3,12 +3,11 @@
   "workspaces": {
     "": {
       "name": "ts-folder-check",
-      "devDependencies": {
-        "@types/bun": "latest",
+      "dependencies": {
         "typescript": "6.0.3",
       },
-      "peerDependencies": {
-        "typescript": "6.0.3",
+      "devDependencies": {
+        "@types/bun": "latest",
       },
     },
   },

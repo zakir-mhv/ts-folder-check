@@ -1,6 +1,6 @@
 {
   "name": "ts-folder-check",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scoped TypeScript error checker — type-checks only the given folder(s) instead of the whole project",
   "type": "module",
   "bin": {
@@ -26,11 +26,10 @@
   "engines": {
     "node": ">=18"
   },
-  "devDependencies": {
-    "typescript": "6.0.3",
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
+  "dependencies": {
     "typescript": "6.0.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
   }
 }
